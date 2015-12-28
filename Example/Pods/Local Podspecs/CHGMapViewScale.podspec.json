@@ -1,0 +1,25 @@
+{
+  "name": "CHGMapViewScale",
+  "version": "0.1.0",
+  "summary": "A short description of CHGMapViewScale.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CHGMapViewScale",
+  "license": "MIT",
+  "authors": {
+    "Christian": "greth.christian@googlemail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CHGMapViewScale.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CHGMapViewScale": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

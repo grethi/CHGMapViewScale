@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1641C9C7B4457D1D3616E597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE706260BB0EB952791874 /* Foundation.framework */; };
+		291B189C0132701E78BCE3C1 /* CHGMapViewScale.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6FE7A6F0ACB5E39BC64DFBB /* CHGMapViewScale.bundle */; };
+		3DE2C702C94283B64980BBD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE706260BB0EB952791874 /* Foundation.framework */; };
+		4ADDA53C5C2FDAAE2595C7AB /* Pods-CHGMapViewScale_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60480CCA41065E4FB1E99F7B /* Pods-CHGMapViewScale_Example-dummy.m */; };
+		5F36DA14DDA17F322BAD98C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE706260BB0EB952791874 /* Foundation.framework */; };
+		738F08616632F36B38071573 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F710AE0348FF318BF8A042 /* ReplaceMe.m */; };
+		7F65F03FA9985E592B625223 /* Pods-CHGMapViewScale_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A394C0C28CC52D195EF7C7B2 /* Pods-CHGMapViewScale_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AFFD8749B03EF6A05FCF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE706260BB0EB952791874 /* Foundation.framework */; };
+		81B40E5E16C011F5EB2497E5 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AE045CF9E112E3FAFE699F /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m */; };
+		9630E5DF8D406629803BA40C /* Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A16FA467105DBAD416774147 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A22FC7643D44A90A596FDDAF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F710AE0348FF318BF8A042 /* ReplaceMe.m */; };
+		C4FDA33F1E5110EB7DD622E5 /* Pods-CHGMapViewScale_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AD6BDAE4565B63D26B1DBA /* Pods-CHGMapViewScale_Tests-dummy.m */; };
+		CDA27BC12C56AFEFD74154A3 /* Pods-CHGMapViewScale_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDADF6CAD0FE2FD87CE863C /* Pods-CHGMapViewScale_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C109A14A0232F7A33AD331 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A8B55848593A9B015F5579 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30C2CDA9C4073677B96D54B /* CHGMapViewScale.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 658CAEEC32FBA65702B998F5 /* CHGMapViewScale.bundle */; };
+		F4232AEDF669394B62AC078F /* Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D8478CA53A8FEB594A0D4A /* Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048229BB77368BDE5297467D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E1E719FD71783509B747B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6D55D261CFACC3F9B44777;
+			remoteInfo = "Pods-CHGMapViewScale_Tests-CHGMapViewScale";
+		};
+		90626936F3126006CB66741F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E1E719FD71783509B747B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D092A95F7B1D0901F32E36;
+			remoteInfo = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale";
+		};
+		9B3C40F59C59780BE5965360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E1E719FD71783509B747B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C4BA467F936A5A63A28C9C5;
+			remoteInfo = "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale";
+		};
+		F577E1F81817740FC672758A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E1E719FD71783509B747B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554E1A04B4F7B4B380B45F25;
+			remoteInfo = "Pods-CHGMapViewScale_Example-CHGMapViewScale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig"; sourceTree = "<group>"; };
+		08F05A20AB4E89A65F104412 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch"; sourceTree = "<group>"; };
+		13A8B55848593A9B015F5579 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h"; sourceTree = "<group>"; };
+		1D3535C832C3FFA2B159456F /* Pods_CHGMapViewScale_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGMapViewScale_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D8478CA53A8FEB594A0D4A /* Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m"; sourceTree = "<group>"; };
+		2E6071602E86358BC93BECE1 /* Pods-CHGMapViewScale_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGMapViewScale_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32B573A1C906D6AD169C98C3 /* CHGMapViewScale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHGMapViewScale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E33965ABCE26F3238A9D90 /* Pods_CHGMapViewScale_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGMapViewScale_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C528CE8CA7AD6CFFCBAB230 /* Pods-CHGMapViewScale_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Example-resources.sh"; sourceTree = "<group>"; };
+		3CDADF6CAD0FE2FD87CE863C /* Pods-CHGMapViewScale_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Example-umbrella.h"; sourceTree = "<group>"; };
+		40F710AE0348FF318BF8A042 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		45329F999180C4B624416A97 /* Pods-CHGMapViewScale_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGMapViewScale_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D5CD2C13B0AF127D3C61F69 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig"; sourceTree = "<group>"; };
+		56330522383C70B7158A21A0 /* Pods-CHGMapViewScale_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5AA36B9E716F461C67E59421 /* Pods-CHGMapViewScale_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Tests-resources.sh"; sourceTree = "<group>"; };
+		5B599E8EBF7938887A989784 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale-prefix.pch"; sourceTree = "<group>"; };
+		5CAE706260BB0EB952791874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60480CCA41065E4FB1E99F7B /* Pods-CHGMapViewScale_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGMapViewScale_Example-dummy.m"; sourceTree = "<group>"; };
+		644201920E45E33BDFF08BC9 /* Pods-CHGMapViewScale_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGMapViewScale_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64F42D3085CF8C1415DECA7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658CAEEC32FBA65702B998F5 /* CHGMapViewScale.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGMapViewScale.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8C4BA8F9AD9617BBDB5ED3 /* Pods-CHGMapViewScale_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		707F8BFC209D547B09A9A7C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Info.plist"; sourceTree = "<group>"; };
+		71BC62103CB4F94B5998ACFB /* Pods-CHGMapViewScale_Example-CHGMapViewScale.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale.modulemap"; sourceTree = "<group>"; };
+		76ACCE78C4922D7B22FDA240 /* CHGMapViewScale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHGMapViewScale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AD6BDAE4565B63D26B1DBA /* Pods-CHGMapViewScale_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHGMapViewScale_Tests-dummy.m"; sourceTree = "<group>"; };
+		89862FE6E50C75489AB5320F /* Pods-CHGMapViewScale_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGMapViewScale_Tests.modulemap"; sourceTree = "<group>"; };
+		89C67077F5152E4CDD0F1DA0 /* Pods-CHGMapViewScale_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Example.release.xcconfig"; sourceTree = "<group>"; };
+		965997A9A4A6D5A10B368A66 /* Pods-CHGMapViewScale_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A144B1D158D9E77597E2F30 /* Pods-CHGMapViewScale_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A16FA467105DBAD416774147 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h"; sourceTree = "<group>"; };
+		A394C0C28CC52D195EF7C7B2 /* Pods-CHGMapViewScale_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AE36C27348890EB0482D3B35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B775E37A7DF1623E2F19C8BB /* Pods-CHGMapViewScale_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Tests-environment.h"; sourceTree = "<group>"; };
+		CCBEC7A8EB12234FB7BB8985 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5F7E612FDAA58EE9AB542 /* Pods-CHGMapViewScale_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHGMapViewScale_Example-environment.h"; sourceTree = "<group>"; };
+		DA34AFDB1348F2AC4667E653 /* Pods-CHGMapViewScale_Example-CHGMapViewScale.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Example-CHGMapViewScale.xcconfig"; sourceTree = "<group>"; };
+		E402E5326E1F9AF49FE7A45D /* Pods-CHGMapViewScale_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGMapViewScale_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6FE7A6F0ACB5E39BC64DFBB /* CHGMapViewScale.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGMapViewScale.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC304CD6E7D90DFA5F779112 /* Pods-CHGMapViewScale_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EE03E887F61395E033AF7460 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap"; sourceTree = "<group>"; };
+		F4AE045CF9E112E3FAFE699F /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m"; sourceTree = "<group>"; };
+		F67D0A7F86C16CF8270546B9 /* Pods-CHGMapViewScale_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHGMapViewScale_Example.modulemap"; sourceTree = "<group>"; };
+		F73621EB3957DD2CC0E0073F /* Pods-CHGMapViewScale_Tests-CHGMapViewScale.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale.xcconfig"; path = "../Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028EFE1DC50D9F9D7BB94C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFFD8749B03EF6A05FCF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0C99D725913A7B7CB45999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE2C702C94283B64980BBD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4D00FB2BCC5AF3821AE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F36DA14DDA17F322BAD98C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4459DF11D25E4009A23622E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2CB958DFA5B37FFE818067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1641C9C7B4457D1D3616E597 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5714C569FC3A2C3A743249B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B81F62804BC27F7EFC157B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				122D8CEE824E1A2582978AE3 /* Pods-CHGMapViewScale_Example */,
+				BE528DE5D7ACD8ABA97709DB /* Pods-CHGMapViewScale_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		122D8CEE824E1A2582978AE3 /* Pods-CHGMapViewScale_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCBEC7A8EB12234FB7BB8985 /* Info.plist */,
+				F67D0A7F86C16CF8270546B9 /* Pods-CHGMapViewScale_Example.modulemap */,
+				E402E5326E1F9AF49FE7A45D /* Pods-CHGMapViewScale_Example-acknowledgements.markdown */,
+				45329F999180C4B624416A97 /* Pods-CHGMapViewScale_Example-acknowledgements.plist */,
+				60480CCA41065E4FB1E99F7B /* Pods-CHGMapViewScale_Example-dummy.m */,
+				D1B5F7E612FDAA58EE9AB542 /* Pods-CHGMapViewScale_Example-environment.h */,
+				56330522383C70B7158A21A0 /* Pods-CHGMapViewScale_Example-frameworks.sh */,
+				3C528CE8CA7AD6CFFCBAB230 /* Pods-CHGMapViewScale_Example-resources.sh */,
+				3CDADF6CAD0FE2FD87CE863C /* Pods-CHGMapViewScale_Example-umbrella.h */,
+				6B8C4BA8F9AD9617BBDB5ED3 /* Pods-CHGMapViewScale_Example.debug.xcconfig */,
+				89C67077F5152E4CDD0F1DA0 /* Pods-CHGMapViewScale_Example.release.xcconfig */,
+			);
+			name = "Pods-CHGMapViewScale_Example";
+			path = "Target Support Files/Pods-CHGMapViewScale_Example";
+			sourceTree = "<group>";
+		};
+		46198A142AB4BD66CC3A2F53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F42D3085CF8C1415DECA7B /* Info.plist */,
+				707F8BFC209D547B09A9A7C3 /* Info.plist */,
+				71BC62103CB4F94B5998ACFB /* Pods-CHGMapViewScale_Example-CHGMapViewScale.modulemap */,
+				DA34AFDB1348F2AC4667E653 /* Pods-CHGMapViewScale_Example-CHGMapViewScale.xcconfig */,
+				06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */,
+				28D8478CA53A8FEB594A0D4A /* Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m */,
+				5B599E8EBF7938887A989784 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-prefix.pch */,
+				A16FA467105DBAD416774147 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h */,
+				EE03E887F61395E033AF7460 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap */,
+				F73621EB3957DD2CC0E0073F /* Pods-CHGMapViewScale_Tests-CHGMapViewScale.xcconfig */,
+				53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */,
+				F4AE045CF9E112E3FAFE699F /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m */,
+				08F05A20AB4E89A65F104412 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch */,
+				13A8B55848593A9B015F5579 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale";
+			sourceTree = "<group>";
+		};
+		4F4A3B2021FBEF5E13551665 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B4837F8799767476601B60A8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		74CFC25201749590D34C6E2C = {
+			isa = PBXGroup;
+			children = (
+				4D5CD2C13B0AF127D3C61F69 /* Podfile */,
+				C6D3D4E91FA3C0D96889B2FE /* Development Pods */,
+				BC63817119A9C7D0C4D6D87B /* Frameworks */,
+				DC92F359D5BA13B2DF982673 /* Products */,
+				01B81F62804BC27F7EFC157B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81D8682089BB794634795E2E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CAE706260BB0EB952791874 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B03CC446E2E2130149D13977 /* CHGMapViewScale */ = {
+			isa = PBXGroup;
+			children = (
+				4F4A3B2021FBEF5E13551665 /* Pod */,
+				46198A142AB4BD66CC3A2F53 /* Support Files */,
+			);
+			name = CHGMapViewScale;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4837F8799767476601B60A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40F710AE0348FF318BF8A042 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC63817119A9C7D0C4D6D87B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D8682089BB794634795E2E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE528DE5D7ACD8ABA97709DB /* Pods-CHGMapViewScale_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE36C27348890EB0482D3B35 /* Info.plist */,
+				89862FE6E50C75489AB5320F /* Pods-CHGMapViewScale_Tests.modulemap */,
+				644201920E45E33BDFF08BC9 /* Pods-CHGMapViewScale_Tests-acknowledgements.markdown */,
+				2E6071602E86358BC93BECE1 /* Pods-CHGMapViewScale_Tests-acknowledgements.plist */,
+				77AD6BDAE4565B63D26B1DBA /* Pods-CHGMapViewScale_Tests-dummy.m */,
+				B775E37A7DF1623E2F19C8BB /* Pods-CHGMapViewScale_Tests-environment.h */,
+				9A144B1D158D9E77597E2F30 /* Pods-CHGMapViewScale_Tests-frameworks.sh */,
+				5AA36B9E716F461C67E59421 /* Pods-CHGMapViewScale_Tests-resources.sh */,
+				A394C0C28CC52D195EF7C7B2 /* Pods-CHGMapViewScale_Tests-umbrella.h */,
+				965997A9A4A6D5A10B368A66 /* Pods-CHGMapViewScale_Tests.debug.xcconfig */,
+				EC304CD6E7D90DFA5F779112 /* Pods-CHGMapViewScale_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHGMapViewScale_Tests";
+			path = "Target Support Files/Pods-CHGMapViewScale_Tests";
+			sourceTree = "<group>";
+		};
+		C6D3D4E91FA3C0D96889B2FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B03CC446E2E2130149D13977 /* CHGMapViewScale */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DC92F359D5BA13B2DF982673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FE7A6F0ACB5E39BC64DFBB /* CHGMapViewScale.bundle */,
+				658CAEEC32FBA65702B998F5 /* CHGMapViewScale.bundle */,
+				76ACCE78C4922D7B22FDA240 /* CHGMapViewScale.framework */,
+				32B573A1C906D6AD169C98C3 /* CHGMapViewScale.framework */,
+				1D3535C832C3FFA2B159456F /* Pods_CHGMapViewScale_Example.framework */,
+				32E33965ABCE26F3238A9D90 /* Pods_CHGMapViewScale_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29E99561AE31D6C2587D90F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F65F03FA9985E592B625223 /* Pods-CHGMapViewScale_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318DA646489BA7A884ED7B98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630E5DF8D406629803BA40C /* Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544217C0BB3DD57CE3CC63D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA27BC12C56AFEFD74154A3 /* Pods-CHGMapViewScale_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55FDCCCB2550AD593872795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C109A14A0232F7A33AD331 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06AC4633323300F9C8563C38 /* Pods-CHGMapViewScale_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB3E8C9C13B872565A5A8AC /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests" */;
+			buildPhases = (
+				70F813530CEADB1FF0C9E73B /* Sources */,
+				028EFE1DC50D9F9D7BB94C3B /* Frameworks */,
+				29E99561AE31D6C2587D90F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C34CCD748FA6AE7DB3BA49 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHGMapViewScale_Tests";
+			productName = "Pods-CHGMapViewScale_Tests";
+			productReference = 32E33965ABCE26F3238A9D90 /* Pods_CHGMapViewScale_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		554E1A04B4F7B4B380B45F25 /* Pods-CHGMapViewScale_Example-CHGMapViewScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5925790B96CE5647F1E983E /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example-CHGMapViewScale" */;
+			buildPhases = (
+				E66F0D5192F111A4CD7E5E35 /* Sources */,
+				1C0C99D725913A7B7CB45999 /* Frameworks */,
+				F2965DEE8C93C609AE85D55C /* Resources */,
+				318DA646489BA7A884ED7B98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BDC2A3D245BBDAA07E5105 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHGMapViewScale_Example-CHGMapViewScale";
+			productName = "Pods-CHGMapViewScale_Example-CHGMapViewScale";
+			productReference = 76ACCE78C4922D7B22FDA240 /* CHGMapViewScale.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C4BA467F936A5A63A28C9C5 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F9C3206916499D294220CC /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale" */;
+			buildPhases = (
+				C1FDE5A9239532183FD405C6 /* Sources */,
+				4459DF11D25E4009A23622E7 /* Frameworks */,
+				559CBF01A8DB997756EBB9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale";
+			productName = "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale";
+			productReference = 658CAEEC32FBA65702B998F5 /* CHGMapViewScale.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		83D092A95F7B1D0901F32E36 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5872E948D3C76B1035F0FA5 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale" */;
+			buildPhases = (
+				707AC29C92B932582435591B /* Sources */,
+				C5714C569FC3A2C3A743249B /* Frameworks */,
+				9BE0227D58789DB042542BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale";
+			productName = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale";
+			productReference = E6FE7A6F0ACB5E39BC64DFBB /* CHGMapViewScale.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		885A94462A07C22AA7A156E5 /* Pods-CHGMapViewScale_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8329AE51A85886022378B7D1 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example" */;
+			buildPhases = (
+				6F556A14BB9B7CAF22AB3ED3 /* Sources */,
+				33C4D00FB2BCC5AF3821AE60 /* Frameworks */,
+				544217C0BB3DD57CE3CC63D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC39AB675F56622CB68508D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHGMapViewScale_Example";
+			productName = "Pods-CHGMapViewScale_Example";
+			productReference = 1D3535C832C3FFA2B159456F /* Pods_CHGMapViewScale_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A6D55D261CFACC3F9B44777 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA209FFB7F7C953D26C12EAE /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests-CHGMapViewScale" */;
+			buildPhases = (
+				DBEA011FAD1C989BCA4C31B1 /* Sources */,
+				9E2CB958DFA5B37FFE818067 /* Frameworks */,
+				4249E472C5C443D4354C198D /* Resources */,
+				A55FDCCCB2550AD593872795 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7686B26AE2FBCD14336B7A34 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale";
+			productName = "Pods-CHGMapViewScale_Tests-CHGMapViewScale";
+			productReference = 32B573A1C906D6AD169C98C3 /* CHGMapViewScale.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314E1E719FD71783509B747B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = CDAF58E8364196D3F025F9F3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74CFC25201749590D34C6E2C;
+			productRefGroup = DC92F359D5BA13B2DF982673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885A94462A07C22AA7A156E5 /* Pods-CHGMapViewScale_Example */,
+				554E1A04B4F7B4B380B45F25 /* Pods-CHGMapViewScale_Example-CHGMapViewScale */,
+				7C4BA467F936A5A63A28C9C5 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale */,
+				06AC4633323300F9C8563C38 /* Pods-CHGMapViewScale_Tests */,
+				9A6D55D261CFACC3F9B44777 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale */,
+				83D092A95F7B1D0901F32E36 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4249E472C5C443D4354C198D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291B189C0132701E78BCE3C1 /* CHGMapViewScale.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559CBF01A8DB997756EBB9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE0227D58789DB042542BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2965DEE8C93C609AE85D55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30C2CDA9C4073677B96D54B /* CHGMapViewScale.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F556A14BB9B7CAF22AB3ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADDA53C5C2FDAAE2595C7AB /* Pods-CHGMapViewScale_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707AC29C92B932582435591B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F813530CEADB1FF0C9E73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FDA33F1E5110EB7DD622E5 /* Pods-CHGMapViewScale_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FDE5A9239532183FD405C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEA011FAD1C989BCA4C31B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B40E5E16C011F5EB2497E5 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-dummy.m in Sources */,
+				A22FC7643D44A90A596FDDAF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66F0D5192F111A4CD7E5E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4232AEDF669394B62AC078F /* Pods-CHGMapViewScale_Example-CHGMapViewScale-dummy.m in Sources */,
+				738F08616632F36B38071573 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C34CCD748FA6AE7DB3BA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale";
+			target = 9A6D55D261CFACC3F9B44777 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale */;
+			targetProxy = 048229BB77368BDE5297467D /* PBXContainerItemProxy */;
+		};
+		30BDC2A3D245BBDAA07E5105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale";
+			target = 7C4BA467F936A5A63A28C9C5 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale */;
+			targetProxy = 9B3C40F59C59780BE5965360 /* PBXContainerItemProxy */;
+		};
+		7686B26AE2FBCD14336B7A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale";
+			target = 83D092A95F7B1D0901F32E36 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale */;
+			targetProxy = 90626936F3126006CB66741F /* PBXContainerItemProxy */;
+		};
+		AC39AB675F56622CB68508D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CHGMapViewScale_Example-CHGMapViewScale";
+			target = 554E1A04B4F7B4B380B45F25 /* Pods-CHGMapViewScale_Example-CHGMapViewScale */;
+			targetProxy = F577E1F81817740FC672758A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1661C3DC7EEC557C8C7F415A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1707B4F3D33AD5676450E0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Pods-CHGMapViewScale_Example-CHGMapViewScale-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Pods-CHGMapViewScale_Example-CHGMapViewScale.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2111FC561B10F521E203C612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965997A9A4A6D5A10B368A66 /* Pods-CHGMapViewScale_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests/Pods-CHGMapViewScale_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CHGMapViewScale_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F38F48DBDC49D6B42275BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		50D7986292AB9F864BF08F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC304CD6E7D90DFA5F779112 /* Pods-CHGMapViewScale_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests/Pods-CHGMapViewScale_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CHGMapViewScale_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		763ADDA21FF67AB5457BE40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHGMapViewScale_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BA844EB0575FE6959ED9BD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8C4BA8F9AD9617BBDB5ED3 /* Pods-CHGMapViewScale_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Example/Pods-CHGMapViewScale_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CHGMapViewScale_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB7CC7A939BF1924D6D83EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Pods-CHGMapViewScale_Example-CHGMapViewScale-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Example-CHGMapViewScale/Pods-CHGMapViewScale_Example-CHGMapViewScale.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEB21B1FE55E30E7CA801635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C67077F5152E4CDD0F1DA0 /* Pods-CHGMapViewScale_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Example/Pods-CHGMapViewScale_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CHGMapViewScale_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDB6637CD78BFB70CCE44B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBFD969BDE895FD4B0F729B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHGMapViewScale_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E2D0383E866C5FF6EBB3B9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CHGMapViewScale_Tests-CHGMapViewScale/Pods-CHGMapViewScale_Tests-CHGMapViewScale.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2FCC1A4B873F767122A2AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B419A4B9AD5046926AED06 /* Pods-CHGMapViewScale_Tests-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHGMapViewScale_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F65177AA7708D4EDAECA3369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06686F4A73AE0743CEE72697 /* Pods-CHGMapViewScale_Example-CHGMapViewScale-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHGMapViewScale_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CHGMapViewScale;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB3E8C9C13B872565A5A8AC /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2111FC561B10F521E203C612 /* Debug */,
+				50D7986292AB9F864BF08F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8329AE51A85886022378B7D1 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA844EB0575FE6959ED9BD6F /* Debug */,
+				BEB21B1FE55E30E7CA801635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA209FFB7F7C953D26C12EAE /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests-CHGMapViewScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1661C3DC7EEC557C8C7F415A /* Debug */,
+				E2D0383E866C5FF6EBB3B9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5872E948D3C76B1035F0FA5 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Tests-CHGMapViewScale-CHGMapViewScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBFD969BDE895FD4B0F729B /* Debug */,
+				F2FCC1A4B873F767122A2AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAF58E8364196D3F025F9F3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F38F48DBDC49D6B42275BF7 /* Debug */,
+				CDB6637CD78BFB70CCE44B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F9C3206916499D294220CC /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example-CHGMapViewScale-CHGMapViewScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65177AA7708D4EDAECA3369 /* Debug */,
+				763ADDA21FF67AB5457BE40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5925790B96CE5647F1E983E /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example-CHGMapViewScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7CC7A939BF1924D6D83EBD /* Debug */,
+				1707B4F3D33AD5676450E0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314E1E719FD71783509B747B /* Project object */;
+}

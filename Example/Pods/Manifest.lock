@@ -1,0 +1,14 @@
+PODS:
+  - CHGMapViewScale (0.1.0)
+
+DEPENDENCIES:
+  - CHGMapViewScale (from `../`)
+
+EXTERNAL SOURCES:
+  CHGMapViewScale:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHGMapViewScale: bd6e5068ec89c8594cb024d2a0b0e3a60c41a16f
+
+COCOAPODS: 0.37.2
