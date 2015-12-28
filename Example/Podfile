@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CHGMapViewScale_Example', :exclusive => true do
+  pod "CHGMapViewScale", :path => "../"
+end
+
+target 'CHGMapViewScale_Tests', :exclusive => true do
+  pod "CHGMapViewScale", :path => "../"
+
+  
+end
