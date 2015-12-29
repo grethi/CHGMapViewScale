@@ -6,7 +6,7 @@
 //  Copyright © 2015 fog. All rights reserved.
 //
 
-#import <GoogleMaps/GoogleMaps.h>
+#import "GoogleMaps/GoogleMaps.h"
 
 #import <UIKit/UIKit.h>
 
