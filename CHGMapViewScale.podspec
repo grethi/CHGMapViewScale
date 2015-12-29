@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "CHGMapViewScale"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CHGMapViewScale."
+  s.summary          = "Add a graphical scale to a GMSMapView."
   s.description      = <<-DESC
+Add a graphical scale directly on top of a GMSMapView.
                        DESC
 
   s.homepage         = "https://github.com/grethi/CHGMapViewScale"
