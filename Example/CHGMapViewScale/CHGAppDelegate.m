@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Christian. All rights reserved.
 //
 
+#import "GoogleMaps/GoogleMaps.h"
+
 #import "CHGAppDelegate.h"
 
 @implementation CHGAppDelegate
@@ -13,6 +15,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [GMSServices provideAPIKey:@"AIzaSyB2Yvb6LCndeDO_fLJPIWcYR295SrEWyXs"];
+    
     return YES;
 }
 
