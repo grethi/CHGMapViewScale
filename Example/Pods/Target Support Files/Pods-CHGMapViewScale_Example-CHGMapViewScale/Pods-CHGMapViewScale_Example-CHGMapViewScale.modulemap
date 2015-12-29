@@ -1,6 +1,0 @@
-framework module CHGMapViewScale {
-  umbrella header "Pods-CHGMapViewScale_Example-CHGMapViewScale-umbrella.h"
-
-  export *
-  module * { export * }
-}

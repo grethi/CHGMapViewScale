@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		579834BA57BC7473026AC833 /* libPods-CHGMapViewScale_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C538903DA631A20822C5D56D /* libPods-CHGMapViewScale_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		81C22FF6C35053CBF22FD738 /* Pods_CHGMapViewScale_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BBF01B7C07F084A72110B9 /* Pods_CHGMapViewScale_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		93AAF72B251FA6DD7B67EFE4 /* Pods_CHGMapViewScale_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133AA37FD3C5C7DF316F4551 /* Pods_CHGMapViewScale_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8EAC066D7914826B8165AC3E /* libPods-CHGMapViewScale_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4750F343DB7F1A21E2AE956F /* libPods-CHGMapViewScale_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		133AA37FD3C5C7DF316F4551 /* Pods_CHGMapViewScale_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGMapViewScale_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA93C29CE74E3913526E15 /* Pods-CHGMapViewScale_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Tests/Pods-CHGMapViewScale_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D94DEE89C63DDAF11910901 /* Pods-CHGMapViewScale_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Example/Pods-CHGMapViewScale_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E5E1CF1EED68A6B0A21D70C /* CHGMapViewScale.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHGMapViewScale.podspec; path = ../CHGMapViewScale.podspec; sourceTree = "<group>"; };
 		4042F181A352A9729E83049F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4555D55B01293C5E50D3D1CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* CHGMapViewScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CHGMapViewScale.app; path = CHGMapViewScale_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4750F343DB7F1A21E2AE956F /* libPods-CHGMapViewScale_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHGMapViewScale_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CHGMapViewScale_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHGMapViewScale_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,16 +55,16 @@
 		6003F5A5195388D20070C39A /* CHGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CHGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = CHGMapViewScale_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CHGMapViewScale_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGMapViewScale_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66BBF01B7C07F084A72110B9 /* Pods_CHGMapViewScale_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHGMapViewScale_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8A4E791A0EF8CF0BC09947E4 /* Pods-CHGMapViewScale_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Tests/Pods-CHGMapViewScale_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE56C3C98AB8D26DCB52F9F /* Pods-CHGMapViewScale_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Example/Pods-CHGMapViewScale_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C538903DA631A20822C5D56D /* libPods-CHGMapViewScale_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHGMapViewScale_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				81C22FF6C35053CBF22FD738 /* Pods_CHGMapViewScale_Example.framework in Frameworks */,
+				8EAC066D7914826B8165AC3E /* libPods-CHGMapViewScale_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				93AAF72B251FA6DD7B67EFE4 /* Pods_CHGMapViewScale_Tests.framework in Frameworks */,
+				579834BA57BC7473026AC833 /* libPods-CHGMapViewScale_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CHGMapViewScale.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* CHGMapViewScale_Example.app */,
+				6003F5AE195388D20070C39A /* CHGMapViewScale_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				66BBF01B7C07F084A72110B9 /* Pods_CHGMapViewScale_Example.framework */,
-				133AA37FD3C5C7DF316F4551 /* Pods_CHGMapViewScale_Tests.framework */,
+				4750F343DB7F1A21E2AE956F /* libPods-CHGMapViewScale_Example.a */,
+				C538903DA631A20822C5D56D /* libPods-CHGMapViewScale_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			);
 			name = CHGMapViewScale_Example;
 			productName = CHGMapViewScale;
-			productReference = 6003F58A195388D20070C39A /* CHGMapViewScale.app */;
+			productReference = 6003F58A195388D20070C39A /* CHGMapViewScale_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CHGMapViewScale_Tests */ = {
@@ -234,7 +234,7 @@
 			);
 			name = CHGMapViewScale_Tests;
 			productName = CHGMapViewScaleTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* CHGMapViewScale_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
