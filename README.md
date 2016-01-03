@@ -1,6 +1,5 @@
 # CHGMapViewScale
 
-[![CI Status](http://img.shields.io/travis/Christian/CHGMapViewScale.svg?style=flat)](https://travis-ci.org/Christian/CHGMapViewScale)
 [![Version](https://img.shields.io/cocoapods/v/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 [![License](https://img.shields.io/cocoapods/l/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 [![Platform](https://img.shields.io/cocoapods/p/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
@@ -11,6 +10,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+This pod has dependencies to the GoogleMaps framework and the pod BlocksKit.
+
 ## Installation
 
 CHGMapViewScale is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +21,75 @@ it, simply add the following line to your Podfile:
 pod "CHGMapViewScale"
 ```
 
+## Usage
+
+There are two different ways to use the scale:
+
+1. Directly (Example: GMSMapViewController):
+
+```objc
+// create a new scale for a specific GMSMapView
+_mapViewScale = [[CHGMapViewScale alloc] initWithMapView:_mapView];
+// customize the scale
+_mapViewScale.scalePosition = CHGMapViewScalePositionTopRight;
+_mapViewScale.topAdjustment = CGRectGetHeight(self.navigationController.navigationBar.bounds) + 30.f;
+// update the scale
+[_mapViewScale update];
+```
+
+2. Wrapped in CHGMapView (Example: CHGMapViewController)
+```objc
+// create a new CHGMapView based on GMSMapView. The scale is automatically available but invisible.
+_mapView = [CHGMapView mapWithFrame:CGRectZero camera:camera];
+self.view = _mapView;
+
+_mapView.delegate = self;
+
+// customize the scale
+_mapView.scale.scalePosition = CHGMapViewScalePositionTopRight;
+_mapView.scale.topAdjustment = CGRectGetHeight(self.navigationController.navigationBar.bounds) + 30.f;
+
+// finally show the scale
+[_mapView showScaleWithAutomaticUpdates:YES];
+```
+
+## Customize the scale view
+
+### Scale unit (Default: Miles)
+
+```objc
+_mapView.scale.scaleUnit = CHGMapViewScaleUnitMiles;
+```
+
+### Position (Default: TopCenter and 30px from top of view)
+
+```objc
+_mapView.scale.scalePosition = CHGMapViewScalePositionTopRight;
+_mapView.scale.topAdjustment = CGRectGetHeight(self.navigationController.navigationBar.bounds) + 30.f;
+```
+
+### Size (Default: 0.2 -> 20%)
+
+```objc
+_mapView.scale.viewToScaleRation = 0.5f;
+```
+
+### Color (Default: Black)
+
+```objc
+_mapView.scale.scaleColor = [UIColor blackColor];
+_mapView.scale.scaleTextColor = [UIColor blackColor];
+```
+
+### Text alignment (Default: Right)
+
+```objc
+_mapView.scale.scaleTextAlignment = NSTextAlignmentRight;
+```
+
 ## Author
 
-Christian, greth.christian@googlemail.com
+Christian Greth, greth.christian@googlemail.com
 
 ## License
 
