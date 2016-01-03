@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 [![Platform](https://img.shields.io/cocoapods/p/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 
-## Usage
+## Example
+
+![Screenshot of example CHGMapViewController](example.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -25,7 +27,7 @@ pod "CHGMapViewScale"
 
 There are two different ways to use the scale:
 
-1. Directly (Example: GMSMapViewController):
+* directly (Example: GMSMapViewController):
 
 ```objc
 // create a new scale for a specific GMSMapView
@@ -37,7 +39,7 @@ _mapViewScale.topAdjustment = CGRectGetHeight(self.navigationController.navigati
 [_mapViewScale update];
 ```
 
-2. Wrapped in CHGMapView (Example: CHGMapViewController)
+* or wrapped in CHGMapView (Example: CHGMapViewController)
 ```objc
 // create a new CHGMapView based on GMSMapView. The scale is automatically available but invisible.
 _mapView = [CHGMapView mapWithFrame:CGRectZero camera:camera];
