@@ -18,15 +18,19 @@
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:1.285
                                                             longitude:103.848
                                                                  zoom:12];
+    
+    // create a new CHGMapView based on GMSMapView. The scale is automatically available but invisible.
     _mapView = [CHGMapView mapWithFrame:CGRectZero camera:camera];
     self.view = _mapView;
     
     _mapView.delegate = self;
     
+    // customize the scale
     _mapView.scale.scalePosition = CHGMapViewScalePositionTopRight;
     _mapView.scale.topAdjustment = CGRectGetHeight(self.navigationController.navigationBar.bounds) + 30.f;
     
-    [_mapView showScale];
+    // finally show the scale
+    [_mapView showScaleWithAutomaticUpdates:YES];
 }
 
 - (void)viewDidLoad
@@ -40,6 +44,7 @@
     
     UIBarButtonItem *milesButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Miles" style:UIBarButtonItemStylePlain handler:^(id sender) {
         
+        // change scale settings and update its view
         _mapView.scale.scaleUnit = CHGMapViewScaleUnitMiles;
         [_mapView updateScale];
         
@@ -47,6 +52,7 @@
     
     UIBarButtonItem *kiloButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Kilometers" style:UIBarButtonItemStylePlain handler:^(id sender) {
         
+        // change scale settings and update its view
         _mapView.scale.scaleUnit = CHGMapViewScaleUnitKilometers;
         [_mapView updateScale];
         
@@ -57,10 +63,12 @@
     
     UIBarButtonItem *showHideButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Hide" style:UIBarButtonItemStylePlain handler:^(id sender) {
         
-        if ([_mapView isScaleHidden]) {
+        if (_mapView.isScaleHidden) {
+            // show the scale
             [_mapView showScale];
             [((UIBarButtonItem *)sender) setTitle:@"Hide"];
         } else {
+            // hide the scale
             [_mapView hideScale];
             [((UIBarButtonItem *)sender) setTitle:@"Show"];
         }
@@ -80,7 +88,8 @@
 
 - (void)mapView:(GMSMapView *)mapView didChangeCameraPosition:(GMSCameraPosition *)position
 {
-    [_mapView updateScale];
+    // update the scale view
+    //[_mapView updateScale];
 }
 
 @end

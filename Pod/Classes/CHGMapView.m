@@ -8,6 +8,8 @@
 
 #import "CHGMapView.h"
 
+#import "NSObject+BKBlockObservation.h"
+
 @implementation CHGMapView
 
 + (instancetype)mapWithFrame:(CGRect)frame camera:(GMSCameraPosition *)camera
@@ -18,6 +20,11 @@
     [mapView.scale setHidden:YES];
     
     return mapView;
+}
+
+- (void)dealloc
+{
+    [self removeObserver:self forKeyPath:@"camera"];
 }
 
 - (BOOL)isScaleHidden
@@ -33,10 +40,22 @@
 - (void)hideScale
 {
     [self.scale setHidden:YES];
+    [self bk_removeAllBlockObservers];
 }
 
 - (void)showScale
 {
+    [self showScaleWithAutomaticUpdates:NO];
+}
+
+- (void)showScaleWithAutomaticUpdates:(BOOL)autoUpdates
+{
+    if (autoUpdates) {
+        [self bk_addObserverForKeyPath:@"camera" task:^(id target) {
+            [self updateScale];
+        }];
+    }
+    
     [self.scale setHidden:NO];
     [self.scale update];
 }

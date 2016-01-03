@@ -28,9 +28,12 @@
     
     _mapView.delegate = self;
     
+    // create a new scale for a specific GMSMapView
     _mapViewScale = [[CHGMapViewScale alloc] initWithMapView:_mapView];
+    // customize the scale
     _mapViewScale.scalePosition = CHGMapViewScalePositionTopRight;
     _mapViewScale.topAdjustment = CGRectGetHeight(self.navigationController.navigationBar.bounds) + 30.f;
+    // update the scale
     [_mapViewScale update];
     
 }
@@ -46,6 +49,7 @@
     
     UIBarButtonItem *milesButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Miles" style:UIBarButtonItemStylePlain handler:^(id sender) {
        
+        // change scale settings and update
         _mapViewScale.scaleUnit = CHGMapViewScaleUnitMiles;
         [_mapViewScale update];
         
@@ -53,6 +57,7 @@
     
     UIBarButtonItem *kiloButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Kilometers" style:UIBarButtonItemStylePlain handler:^(id sender) {
         
+        // change scale settings and update
         _mapViewScale.scaleUnit = CHGMapViewScaleUnitKilometers;
         [_mapViewScale update];
         
@@ -72,6 +77,7 @@
 
 - (void)mapView:(GMSMapView *)mapView didChangeCameraPosition:(GMSCameraPosition *)position
 {
+    // update the scale view
     [_mapViewScale update];
 }
 
