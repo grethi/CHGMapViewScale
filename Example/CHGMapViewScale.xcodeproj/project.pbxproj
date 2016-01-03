@@ -14,7 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CHGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CHGAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CHGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CHGViewController.m */; };
+		6003F5A7195388D20070C39A /* GMSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GMSMapViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8EAC066D7914826B8165AC3E /* libPods-CHGMapViewScale_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4750F343DB7F1A21E2AE956F /* libPods-CHGMapViewScale_Example.a */; };
+		AAE66F821C39A3A200F9CACA /* CHGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE66F811C39A3A200F9CACA /* CHGMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,8 @@
 		6003F59B195388D20070C39A /* CHGMapViewScale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHGMapViewScale-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CHGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CHGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CHGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CHGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* GMSMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSMapViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* GMSMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSMapViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CHGMapViewScale_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHGMapViewScale_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,6 +64,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8A4E791A0EF8CF0BC09947E4 /* Pods-CHGMapViewScale_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Tests/Pods-CHGMapViewScale_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE66F801C39A3A200F9CACA /* CHGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGMapViewController.h; sourceTree = "<group>"; };
+		AAE66F811C39A3A200F9CACA /* CHGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGMapViewController.m; sourceTree = "<group>"; };
 		BFE56C3C98AB8D26DCB52F9F /* Pods-CHGMapViewScale_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHGMapViewScale_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHGMapViewScale_Example/Pods-CHGMapViewScale_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C538903DA631A20822C5D56D /* libPods-CHGMapViewScale_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHGMapViewScale_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,10 +136,12 @@
 				6003F59C195388D20070C39A /* CHGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CHGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CHGViewController.h */,
-				6003F5A6195388D20070C39A /* CHGViewController.m */,
+				6003F5A5195388D20070C39A /* GMSMapViewController.h */,
+				6003F5A6195388D20070C39A /* GMSMapViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AAE66F801C39A3A200F9CACA /* CHGMapViewController.h */,
+				AAE66F811C39A3A200F9CACA /* CHGMapViewController.m */,
 			);
 			name = "Example for CHGMapViewScale";
 			path = CHGMapViewScale;
@@ -390,8 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE66F821C39A3A200F9CACA /* CHGMapViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CHGAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CHGViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* GMSMapViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

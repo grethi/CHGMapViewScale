@@ -9,21 +9,18 @@
 /* Begin PBXBuildFile section */
 		01149FA585A714569093657B85C1A350 /* NSSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 148C44095049E5022BC2310073699E4B /* NSSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03592DBD830EF65C1AE796A0697F46E1 /* NSMutableSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA2A8C6A3BCDE91692AD40C2AD9DB69 /* NSMutableSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		068BD126D2E020E48B8D6ACC0898AB70 /* CHGMapViewScale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E05BC624005521096A63835F74A8BD /* CHGMapViewScale-dummy.m */; };
 		0692E35064349B6FA8C1EFD50B7B1F45 /* A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C6DC8C1B30A0D9FCBD359BC52380E6 /* A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06E81EA517D3D383E9C587FB4C6B4093 /* CHGMapViewScale.m in Sources */ = {isa = PBXBuildFile; fileRef = D36D3C2C858218D7CA4F173D77EE15A6 /* CHGMapViewScale.m */; };
 		091BEB6F36788F7851ADCCFB6D255191 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49FFEFCA891B163A54D92176D06E74B /* MessageUI.framework */; };
 		0A288C4D0ED296320F86966D45E8D5E9 /* A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07949600DB4D81776F0447B5361024F0 /* A2DynamicDelegate.m */; };
 		0F0550B889810895B32BCA065DD6CFC4 /* NSObject+BKAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2CB7729D58661A12A24F1E145126C8 /* NSObject+BKAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12F7B27FB2422AC6413E77B7F98812C4 /* UIWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4761A9A8D6A1BED27A23DEA8B670E4DE /* UIWebView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149B9A4BDC7FB1FEDE01059764F1D584 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE268206F5A5D6814227E87E3B97E9 /* NSMutableIndexSet+BlocksKit.m */; };
 		14BAF7AE2D75E18559739D71CFF10C84 /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5D399A4C0F6BA9F6B2D1FC9BC47195 /* NSMutableOrderedSet+BlocksKit.m */; };
-		15A015DBD08786AA1844529AD0D6BC03 /* CHGMapViewScale.h in Headers */ = {isa = PBXBuildFile; fileRef = EF823FDF8AFB2206C79C8BFA6D11078A /* CHGMapViewScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1884FEF4A33BE9F67668E794BCEFF59B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF59A2C949BB0AFEB8381A0F787AD0F3 /* GoogleMaps.framework */; };
 		1BE7CD118C7601DDD1629547E938ED5E /* NSMutableArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D081ED26ABFD17639EA12D78F633B3 /* NSMutableArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D94729B01FA7FF29BE8810D18D85261 /* Pods-CHGMapViewScale_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D16BCE54DE4F712FC81603732EDECD /* Pods-CHGMapViewScale_Example-dummy.m */; };
 		1FACCDACF70A7AF5AAED0F35D9AC0642 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0E2CD31FDDDFD1756B4406D8C9E179 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		213BDA0BFDC7FA8B00CD8395940400E2 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23117E6D05E7E1465B682D78DE6DFF3D /* NSOrderedSet+BlocksKit.m */; };
+		21514BB7D10F4E633A2FCFA11B9B3933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612E8197B51D671A63365EC5BCFD68DA /* MapKit.framework */; };
 		28A0BEDF1DB5E178DEAF1D03F718557B /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6168AB93EC3FBE5282A3207566ABF13 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE50403797DDF662DAE1DBDEF30A901 /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 685AE5FC06EF7408F0944BB9C56E465F /* UIGestureRecognizer+BlocksKit.m */; };
 		3221D2FE805E7A2E298CB3B9CC4E6AF0 /* A2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4334A9752000B74D3AF438F785D03F0E /* A2BlockInvocation.m */; };
@@ -34,11 +31,16 @@
 		3DF2307D736F5A334CC5392A06B142C0 /* NSMutableIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B891FD84157A145FD5FD2578881DF7 /* NSMutableIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		423CD981F80732AA6C075F7F633CFBBD /* NSURLConnection+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C236AF1E418D538BA634D6CE827A4BBC /* NSURLConnection+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		455F71D95890455473B3AF068D2003D1 /* UIPopoverController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C5C3F8AD17DED3F8AAA472FD54E2A2 /* UIPopoverController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464BC0080E1393127D1B5C6300A28414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33F4FEB298249509B672C86754F6445 /* Foundation.framework */; };
+		467394C43909AB4DCEAF47D9318C5E41 /* CHGMapViewScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D06DFFD8746EF9A172BFFE5D81F9BD /* CHGMapViewScale.m */; };
 		484776F8B4CF9A89AA18C6874E246DF6 /* NSObject+A2BlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B61135D497C07247CC2F65E471E4A89B /* NSObject+A2BlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5467BA80FE76E5928DBC92FCA8F319DD /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0C7663BE88DDF04407346872E8EA93 /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58CD17FA5089311EA5C4A7011154D3EA /* CHGMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3477E1764FC1A82DD82284858418A8F3 /* CHGMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58F4C1C349633CE28F242E5FC8518636 /* NSTimer+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEEE50FCE776833B3F61B3C26FB1BEB /* NSTimer+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61898DE2259DB9ECC1F23C538FCE7BBB /* UIImagePickerController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A27316AB1C6F955B03D1B1698C94B13F /* UIImagePickerController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627BCF3CA1B10ADF991E37D3CF6FB5D1 /* CHGMapViewScale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E05BC624005521096A63835F74A8BD /* CHGMapViewScale-dummy.m */; };
 		655D1BA2DF6331B2EE6BD27FA4B20278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33F4FEB298249509B672C86754F6445 /* Foundation.framework */; };
+		6C0396BD19E884EF3380A6769E19FBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6CEB531E01D117164681633FE0CD1 /* UIKit.framework */; };
 		6DCBF5A3569BA772FBAB3379A00464D2 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C344726ED7C99FCADB69AA866F41801 /* UIBarButtonItem+BlocksKit.m */; };
 		6F2746610AB8BBFA162997F6AED950F7 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 222830521BAA1B5538D91E89CAB29C89 /* NSTimer+BlocksKit.m */; };
 		6F6DD1FA269EB37E6CC9722C59AFBA5B /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58091F7BFACC95201E92DD7C70E2B53D /* NSArray+BlocksKit.m */; };
@@ -49,13 +51,14 @@
 		7E8DF508233A1A7A663933939A6D5FE8 /* MFMessageComposeViewController+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A476203158BF07154F5DE28A6031B /* MFMessageComposeViewController+BlocksKit.m */; };
 		80D7B80A26162132A65EE9167AEAE94F /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5668536F2430C4BCE22D2A10E956E572 /* UIControl+BlocksKit.m */; };
 		8517BE33C254EE906D831579DD8C72B3 /* A2BlockInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1712724446F6C4F0D1EAD26D7A8C2B9F /* A2BlockInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		960EAB049124F5348699A3ECEB2D4130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B6CEB531E01D117164681633FE0CD1 /* UIKit.framework */; };
+		957686E5F388C2D08C7A30247B282FDF /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF59A2C949BB0AFEB8381A0F787AD0F3 /* GoogleMaps.framework */; };
 		992944F68F8CC38008B2C611A0107FDE /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E74E4C69A63821B2232576DA0E9A4271 /* UIView+BlocksKit.m */; };
 		9C639C4D43608486642208566DF05AF5 /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C232E079B9905560326AB60E59EF8 /* NSObject+BKBlockObservation.m */; };
 		9F9CFBD464085524F455C4D19211E69E /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB8B44FD016FADF8070EBD0805FC0F1 /* NSMutableDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FADA4523CE1BFD6E588D400285BAC0E /* NSURLConnection+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 50202DA547C7CF2E442C2F520A6B3BE3 /* NSURLConnection+BlocksKit.m */; };
 		A026405E495CA2EFF557A70D1515A689 /* NSOrderedSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 536B73EF5B1FF6D875738DF6EAC2F048 /* NSOrderedSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1968C04873813D7CEB076FDFCBC479C /* UIControl+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EFEC9C7E1294ED86AF7DFAA1ED018D /* UIControl+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CC399902024136EFAE179C3511BCB3 /* CHGMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0287E4CF1A937833ED75463393A00D16 /* CHGMapView.m */; };
 		A229FCF9FEBBF16977B33AB2FEF23830 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3124620FE598B983F5C9AB4512E2E536 /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2FC6CF3F13C4799D04AC89ADD403AED /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E54DC09D065C60C869473CEB6BE91 /* NSMutableSet+BlocksKit.m */; };
 		A5CA4DD465154E16BF094796B56E7E52 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C43196A5583CBE7497B3317A3957D256 /* NSMutableDictionary+BlocksKit.m */; };
@@ -66,7 +69,6 @@
 		BE2BE12ECE566C14238DD7845DEDD84B /* BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B68C0268DAB99829EFD93592006B51B /* BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C237814AF824CAE9A479AD0F4DB151AA /* NSCache+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F79644DAA2026BF38D6E393B7E75D /* NSCache+BlocksKit.m */; };
 		C2BFF405BE0AEE5C66C90E6FD8B10415 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EE03DD528EDF8036CD42346E925AD8 /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59CA5E3FC0A9ED0AB48E4A40FF829F4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612E8197B51D671A63365EC5BCFD68DA /* MapKit.framework */; };
 		C7C6F46E66572803459747BD9121EB20 /* UIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F15CFAC3010C981863446172BCDBB5F5 /* UIActionSheet+BlocksKit.m */; };
 		C7E0B31A7916AABF23A79CB06E1F5272 /* NSObject+BKBlockObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = FC91C48FC15ED2095933F3921A4E411D /* NSObject+BKBlockObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9B6328F023FF633ABA6879D50FC90DE /* NSInvocation+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7259812AA7A126E890E16CF4605BA992 /* NSInvocation+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -78,9 +80,9 @@
 		D7AFF4F4AA1900F1FDD8CCC28367CD1C /* BlocksKit+MessageUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0500194EE23414F2DB7AFAF29B43647E /* BlocksKit+MessageUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9D88ED515332296D0EE0C7129EDAAA0 /* NSCache+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EE32E5E8668DA98765F8AEC5686A11 /* NSCache+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB21A546C83305719CD699E00E36AA3F /* BlocksKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7723C5BB075A79A9E71FC94CD5500 /* BlocksKit-dummy.m */; };
-		DC804C0C3B1028BD8828FDA04168567D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33F4FEB298249509B672C86754F6445 /* Foundation.framework */; };
 		E09FAE444FA9AAC6F1F0295F5092A2FC /* UIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCD647C81FDE3E85B358AB550CFBEC /* UIWebView+BlocksKit.m */; };
 		E32DDF26286A2F7F77F8B90754373696 /* UIActionSheet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B8176B5B8DAC2AF613CC9781F92BA1F1 /* UIActionSheet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35277AEAA7FF6D23656D85D2A3B1C35 /* CHGMapViewScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E925877E8C657880989A5ECDDB41FCC /* CHGMapViewScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC783E9B9EA9DDFC778E4AA0D5065097 /* NSObject+A2DynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7708295D7BB3B41AA497BFE0A43F6080 /* NSObject+A2DynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF87B1AB7825C0B9244F364CEAC1EF31 /* MFMailComposeViewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE04C5C90840628C379E2B0DC71298D /* MFMailComposeViewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F09A8E1234A6B7D95122D5DAEA3870FF /* NSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC26E76903E6E5FE84CC78E85F083B4 /* NSObject+A2DynamicDelegate.m */; };
@@ -94,7 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01FAF14BD62C7C5B0983A675E95DA044 /* PBXContainerItemProxy */ = {
+		4A72C3E1D0A5B9FAA623B9270309C2E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -105,7 +107,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0927F91D5931D33DCCAF7FB1BE6EA41D;
+			remoteGlobalIDString = 983331E9D1724922C198EC62840D2DE8;
 			remoteInfo = CHGMapViewScale;
 		};
 		A7C54F3BE6E755EEAF4DD93725C3C6F0 /* PBXContainerItemProxy */ = {
@@ -119,7 +121,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0927F91D5931D33DCCAF7FB1BE6EA41D;
+			remoteGlobalIDString = 983331E9D1724922C198EC62840D2DE8;
 			remoteInfo = CHGMapViewScale;
 		};
 		BB11C9AB8C0379E94CB5E2D72D80C015 /* PBXContainerItemProxy */ = {
@@ -132,6 +134,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0287E4CF1A937833ED75463393A00D16 /* CHGMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGMapView.m; sourceTree = "<group>"; };
 		04541493129F87A66EF9AEEEF1982758 /* Pods-CHGMapViewScale_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0500194EE23414F2DB7AFAF29B43647E /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlocksKit+MessageUI.h"; path = "BlocksKit/BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
 		07949600DB4D81776F0447B5361024F0 /* A2DynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A2DynamicDelegate.m; path = BlocksKit/DynamicDelegate/A2DynamicDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		103DD6E85F24D88990F9395FB840C7FA /* CHGMapViewScale.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHGMapViewScale.xcconfig; sourceTree = "<group>"; };
 		1486CA5E61E6898DCC7FC347986122AA /* Pods-CHGMapViewScale_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Tests-resources.sh"; sourceTree = "<group>"; };
 		148C44095049E5022BC2310073699E4B /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+BlocksKit.h"; path = "BlocksKit/Core/NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		14D06DFFD8746EF9A172BFFE5D81F9BD /* CHGMapViewScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGMapViewScale.m; sourceTree = "<group>"; };
 		1712724446F6C4F0D1EAD26D7A8C2B9F /* A2BlockInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A2BlockInvocation.h; path = BlocksKit/DynamicDelegate/A2BlockInvocation.h; sourceTree = "<group>"; };
 		1CF693F9277820E8590DF57AF9547F5E /* Pods-CHGMapViewScale_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHGMapViewScale_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1EA6EBAE37B818E865E58C13C44D9578 /* Pods-CHGMapViewScale_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHGMapViewScale_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		2EFCD647C81FDE3E85B358AB550CFBEC /* UIWebView+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+BlocksKit.m"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.m"; sourceTree = "<group>"; };
 		3124620FE598B983F5C9AB4512E2E536 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BlocksKit.h"; path = "BlocksKit/UIKit/UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
 		33E05BC624005521096A63835F74A8BD /* CHGMapViewScale-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHGMapViewScale-dummy.m"; sourceTree = "<group>"; };
+		3477E1764FC1A82DD82284858418A8F3 /* CHGMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGMapView.h; sourceTree = "<group>"; };
 		3A13B5178101EC74F2FC5700116BC99C /* UIView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BlocksKit.h"; path = "BlocksKit/UIKit/UIView+BlocksKit.h"; sourceTree = "<group>"; };
 		3F2CB7729D58661A12A24F1E145126C8 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BKAssociatedObjects.h"; path = "BlocksKit/Core/NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
 		3FAE268206F5A5D6814227E87E3B97E9 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableIndexSet+BlocksKit.m"; path = "BlocksKit/Core/NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
@@ -159,6 +164,7 @@
 		4761A9A8D6A1BED27A23DEA8B670E4DE /* UIWebView+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+BlocksKit.h"; path = "BlocksKit/UIKit/UIWebView+BlocksKit.h"; sourceTree = "<group>"; };
 		479273D54A6A02137463ED3F9B3072AD /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+BlocksKit.m"; path = "BlocksKit/Core/NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
 		4AEEE50FCE776833B3F61B3C26FB1BEB /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BlocksKit.h"; path = "BlocksKit/Core/NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		4E925877E8C657880989A5ECDDB41FCC /* CHGMapViewScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGMapViewScale.h; sourceTree = "<group>"; };
 		4FE04C5C90840628C379E2B0DC71298D /* MFMailComposeViewController+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMailComposeViewController+BlocksKit.h"; path = "BlocksKit/MessageUI/MFMailComposeViewController+BlocksKit.h"; sourceTree = "<group>"; };
 		50202DA547C7CF2E442C2F520A6B3BE3 /* NSURLConnection+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+BlocksKit.m"; path = "BlocksKit/DynamicDelegate/Foundation/NSURLConnection+BlocksKit.m"; sourceTree = "<group>"; };
 		536B73EF5B1FF6D875738DF6EAC2F048 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+BlocksKit.h"; path = "BlocksKit/Core/NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
@@ -217,7 +223,6 @@
 		CE3C232E079B9905560326AB60E59EF8 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BKBlockObservation.m"; path = "BlocksKit/Core/NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
 		D1749F7F36CA9871926D08F21209D21E /* Pods-CHGMapViewScale_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Example-resources.sh"; sourceTree = "<group>"; };
 		D1B4C1F590A27B428536ABC5539596E4 /* UITextField+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+BlocksKit.m"; path = "BlocksKit/UIKit/UITextField+BlocksKit.m"; sourceTree = "<group>"; };
-		D36D3C2C858218D7CA4F173D77EE15A6 /* CHGMapViewScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHGMapViewScale.m; sourceTree = "<group>"; };
 		DD8F8D38AF46FBC66A79DAFD0E12A43B /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+BlocksKit.h"; path = "BlocksKit/Core/NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
 		E04B7737CDE99410185F068BB6D40CB2 /* libPods-CHGMapViewScale_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHGMapViewScale_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64685B14FBAFCB3F8BE88107540DCFB /* Pods-CHGMapViewScale_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHGMapViewScale_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -227,7 +232,6 @@
 		E9B6CEB531E01D117164681633FE0CD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EAF5AC9139499F7ABC14968FF5E0B8A3 /* UITextField+BlocksKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+BlocksKit.h"; path = "BlocksKit/UIKit/UITextField+BlocksKit.h"; sourceTree = "<group>"; };
 		EED58A9C9525016961A802441FC39A2C /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+BlocksKit.m"; path = "BlocksKit/Core/NSSet+BlocksKit.m"; sourceTree = "<group>"; };
-		EF823FDF8AFB2206C79C8BFA6D11078A /* CHGMapViewScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHGMapViewScale.h; sourceTree = "<group>"; };
 		F15CFAC3010C981863446172BCDBB5F5 /* UIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+BlocksKit.m"; path = "BlocksKit/UIKit/UIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
 		F49FFEFCA891B163A54D92176D06E74B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		F4B1858A208B1245937CBF51CFFB7667 /* Pods-CHGMapViewScale_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHGMapViewScale_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -239,17 +243,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A802A00C3D138F427903E84C3E30D4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC804C0C3B1028BD8828FDA04168567D /* Foundation.framework in Frameworks */,
-				1884FEF4A33BE9F67668E794BCEFF59B /* GoogleMaps.framework in Frameworks */,
-				C59CA5E3FC0A9ED0AB48E4A40FF829F4 /* MapKit.framework in Frameworks */,
-				960EAB049124F5348699A3ECEB2D4130 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		627533E1806B6C6027F9EB38EE1E9F0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,32 +268,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A78E0C3DDED9615B57D9A0849A8C1796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464BC0080E1393127D1B5C6300A28414 /* Foundation.framework in Frameworks */,
+				957686E5F388C2D08C7A30247B282FDF /* GoogleMaps.framework in Frameworks */,
+				21514BB7D10F4E633A2FCFA11B9B3933 /* MapKit.framework in Frameworks */,
+				6C0396BD19E884EF3380A6769E19FBAF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		120A853A163EFAB95FD13C55E006403A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EF823FDF8AFB2206C79C8BFA6D11078A /* CHGMapViewScale.h */,
-				D36D3C2C858218D7CA4F173D77EE15A6 /* CHGMapViewScale.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				47D50F695B15928956FDD77F30E19465 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		21296B9EF979AC5E8688C7D8143701DA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				120A853A163EFAB95FD13C55E006403A /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		258042FF3DC45A7E50A023DD8246C883 /* Pods-CHGMapViewScale_Example */ = {
@@ -325,6 +312,14 @@
 				F9E2B719250BF70D0FD373E3A802DDFA /* Pods-CHGMapViewScale_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		284F340E067F90EC44FECBC7EFA99B28 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E11B2A8423F6D83B89E86B623F1B0B49 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		295654D8DD3DF5D433D7848413EAC14F /* DynamicDelegate */ = {
@@ -437,7 +432,7 @@
 		A931BB7C67F0A022D143E29FE26995CF /* CHGMapViewScale */ = {
 			isa = PBXGroup;
 			children = (
-				21296B9EF979AC5E8688C7D8143701DA /* Pod */,
+				284F340E067F90EC44FECBC7EFA99B28 /* Pod */,
 				F72227F2D663C912896B5042341D810B /* Support Files */,
 			);
 			name = CHGMapViewScale;
@@ -471,6 +466,17 @@
 				A931BB7C67F0A022D143E29FE26995CF /* CHGMapViewScale */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E11B2A8423F6D83B89E86B623F1B0B49 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3477E1764FC1A82DD82284858418A8F3 /* CHGMapView.h */,
+				0287E4CF1A937833ED75463393A00D16 /* CHGMapView.m */,
+				4E925877E8C657880989A5ECDDB41FCC /* CHGMapViewScale.h */,
+				14D06DFFD8746EF9A172BFFE5D81F9BD /* CHGMapViewScale.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E7298EC3D40C2D009EA04D2108B9B23D /* Support Files */ = {
@@ -564,6 +570,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7B10CFB3AA28D5D53539BFA98D4596FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CD17FA5089311EA5C4A7011154D3EA /* CHGMapView.h in Headers */,
+				E35277AEAA7FF6D23656D85D2A3B1C35 /* CHGMapViewScale.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F9FD509AAD735AC4AB664BAA7649312 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,35 +623,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C468767146A489DAEB488B02E762C981 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15A015DBD08786AA1844529AD0D6BC03 /* CHGMapViewScale.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0927F91D5931D33DCCAF7FB1BE6EA41D /* CHGMapViewScale */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A534ED78CC72435AC30D50A35812E255 /* Build configuration list for PBXNativeTarget "CHGMapViewScale" */;
-			buildPhases = (
-				F2A2F4BE85F8ADDA5D411E784024194D /* Sources */,
-				2A802A00C3D138F427903E84C3E30D4F /* Frameworks */,
-				C468767146A489DAEB488B02E762C981 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22DAA845893B71CB0785F74DCE927515 /* PBXTargetDependency */,
-			);
-			name = CHGMapViewScale;
-			productName = CHGMapViewScale;
-			productReference = 539084536ED2482ADBE714C08193B0B9 /* libCHGMapViewScale.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		53BFA8F717D2C249C75CD62CABBFAA2E /* Pods-CHGMapViewScale_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5695D47A22F7339146E9724864B76B1 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example" */;
@@ -653,6 +642,24 @@
 			name = "Pods-CHGMapViewScale_Example";
 			productName = "Pods-CHGMapViewScale_Example";
 			productReference = BD508BA6806F53744B3EE9F3D2083599 /* libPods-CHGMapViewScale_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		983331E9D1724922C198EC62840D2DE8 /* CHGMapViewScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED021D60EE98F96349330F3389ABC519 /* Build configuration list for PBXNativeTarget "CHGMapViewScale" */;
+			buildPhases = (
+				EC3CA56E0E4F21EA1697991F9814AC6B /* Sources */,
+				A78E0C3DDED9615B57D9A0849A8C1796 /* Frameworks */,
+				7B10CFB3AA28D5D53539BFA98D4596FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B7C5419BFCB38F11524E46F40120D6 /* PBXTargetDependency */,
+			);
+			name = CHGMapViewScale;
+			productName = CHGMapViewScale;
+			productReference = 539084536ED2482ADBE714C08193B0B9 /* libCHGMapViewScale.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9FD7DA2FEC9FEE28C3DB8354ECABFC6E /* Pods-CHGMapViewScale_Tests */ = {
@@ -712,7 +719,7 @@
 			projectRoot = "";
 			targets = (
 				DA1A7295DF2A99609DA0EEBF5E83233D /* BlocksKit */,
-				0927F91D5931D33DCCAF7FB1BE6EA41D /* CHGMapViewScale */,
+				983331E9D1724922C198EC62840D2DE8 /* CHGMapViewScale */,
 				53BFA8F717D2C249C75CD62CABBFAA2E /* Pods-CHGMapViewScale_Example */,
 				9FD7DA2FEC9FEE28C3DB8354ECABFC6E /* Pods-CHGMapViewScale_Tests */,
 			);
@@ -769,12 +776,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2A2F4BE85F8ADDA5D411E784024194D /* Sources */ = {
+		EC3CA56E0E4F21EA1697991F9814AC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068BD126D2E020E48B8D6ACC0898AB70 /* CHGMapViewScale-dummy.m in Sources */,
-				06E81EA517D3D383E9C587FB4C6B4093 /* CHGMapViewScale.m in Sources */,
+				A1CC399902024136EFAE179C3511BCB3 /* CHGMapView.m in Sources */,
+				627BCF3CA1B10ADF991E37D3CF6FB5D1 /* CHGMapViewScale-dummy.m in Sources */,
+				467394C43909AB4DCEAF47D9318C5E41 /* CHGMapViewScale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,20 +806,20 @@
 		22D231F092AE57936D3D6F38ED78AE68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHGMapViewScale;
-			target = 0927F91D5931D33DCCAF7FB1BE6EA41D /* CHGMapViewScale */;
+			target = 983331E9D1724922C198EC62840D2DE8 /* CHGMapViewScale */;
 			targetProxy = AD1AC4A2E072B56F7AE30059CD9E2D4C /* PBXContainerItemProxy */;
-		};
-		22DAA845893B71CB0785F74DCE927515 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BlocksKit;
-			target = DA1A7295DF2A99609DA0EEBF5E83233D /* BlocksKit */;
-			targetProxy = 01FAF14BD62C7C5B0983A675E95DA044 /* PBXContainerItemProxy */;
 		};
 		3D1B079F6DE7F9E837CAF47BCB11FBA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHGMapViewScale;
-			target = 0927F91D5931D33DCCAF7FB1BE6EA41D /* CHGMapViewScale */;
+			target = 983331E9D1724922C198EC62840D2DE8 /* CHGMapViewScale */;
 			targetProxy = 609EA5AE9BE431A91CC0660B6059C429 /* PBXContainerItemProxy */;
+		};
+		F3B7C5419BFCB38F11524E46F40120D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlocksKit;
+			target = DA1A7295DF2A99609DA0EEBF5E83233D /* BlocksKit */;
+			targetProxy = 4A72C3E1D0A5B9FAA623B9270309C2E2 /* PBXContainerItemProxy */;
 		};
 		FE2857BFD229573D550D03DA528F69D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -896,6 +904,42 @@
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BlocksKit/BlocksKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		960D0366D7137615D0041D1CC3A7A4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103DD6E85F24D88990F9395FB840C7FA /* CHGMapViewScale.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHGMapViewScale/CHGMapViewScale-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99C5563F6513645E4EAA38DBB54FA475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103DD6E85F24D88990F9395FB840C7FA /* CHGMapViewScale.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHGMapViewScale/CHGMapViewScale-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -999,42 +1043,6 @@
 			};
 			name = Debug;
 		};
-		EAB32FC47AF9C7986FE047F22BB0582C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 103DD6E85F24D88990F9395FB840C7FA /* CHGMapViewScale.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHGMapViewScale/CHGMapViewScale-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F3A974337E7A5CC839B7C520BC592115 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 103DD6E85F24D88990F9395FB840C7FA /* CHGMapViewScale.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHGMapViewScale/CHGMapViewScale-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1056,15 +1064,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A534ED78CC72435AC30D50A35812E255 /* Build configuration list for PBXNativeTarget "CHGMapViewScale" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3A974337E7A5CC839B7C520BC592115 /* Debug */,
-				EAB32FC47AF9C7986FE047F22BB0582C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B5695D47A22F7339146E9724864B76B1 /* Build configuration list for PBXNativeTarget "Pods-CHGMapViewScale_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1079,6 +1078,15 @@
 			buildConfigurations = (
 				2CD07BFBAFA35C2A8FF7DC55EC8A6ED4 /* Debug */,
 				0AC6E7966E429694432FFEBC0214B9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED021D60EE98F96349330F3389ABC519 /* Build configuration list for PBXNativeTarget "CHGMapViewScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D0366D7137615D0041D1CC3A7A4F7 /* Debug */,
+				99C5563F6513645E4EAA38DBB54FA475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

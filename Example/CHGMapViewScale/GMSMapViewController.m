@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Christian. All rights reserved.
 //
 
-#import "CHGViewController.h"
+#import "GMSMapViewController.h"
 
 #import "UIBarButtonItem+BlocksKit.h"
 
-@interface CHGViewController ()
+@interface GMSMapViewController ()
 
 @end
 
-@implementation CHGViewController {
+@implementation GMSMapViewController {
     GMSMapView *_mapView;
     CHGMapViewScale *_mapViewScale;
 }
