@@ -25,9 +25,12 @@
         _mapView = mapView;
         
         self.viewToScaleRatio = 0.2f;
+        self.topAdjustment = 30.f;
+        self.scalePosition = CHGMapViewScalePositionTopCenter;
+        self.scaleUnit = CHGMapViewScaleUnitMiles;
         self.scaleColor = [UIColor blackColor];
         self.scaleTextColor = [UIColor blackColor];
-        self.scaleTextAlignement = NSTextAlignmentRight;
+        self.scaleTextAlignment = NSTextAlignmentRight;
         
         _scale = [[UIView alloc] init];
         [self addSubview:_scale];
@@ -35,9 +38,6 @@
         _scaleLabel = [[UILabel alloc] init];
         _scaleLabel.font = [_scaleLabel.font fontWithSize:9.f];
         [self addSubview:_scaleLabel];
-        
-        
-        [self update];
         
         [_mapView addSubview:self];
     }
@@ -50,14 +50,8 @@
     
     updateTimer = [NSTimer bk_scheduledTimerWithTimeInterval:0.05f block:^(NSTimer *timer) {
         
-        GMSProjection *projection = [_mapView projection];
-        CLLocationCoordinate2D fl = projection.visibleRegion.farLeft;
-        CLLocationCoordinate2D fr = projection.visibleRegion.farRight;
-        CLLocation *left = [[CLLocation alloc] initWithLatitude:fl.latitude longitude:fl.longitude];
-        CLLocation *right = [[CLLocation alloc] initWithLatitude:fr.latitude longitude:fr.longitude];
-        
         // distance
-        CLLocationDistance screenM = [left distanceFromLocation:right];
+        CLLocationDistance screenM = [self distance];
         
         // distance per pixel
         CGFloat screenPX = CGRectGetWidth(_mapView.bounds);
@@ -70,7 +64,8 @@
             
             scalePXsize = scalePXsize * 0.000621371f;
             
-            _scaleText = @{ @0.25 : @"1/4 mile", @0.5 : @"1/2 mile", @0.75 : @"3/4 mile",
+            _scaleText = @{ @0.03125 : @"1/32 mile", @0.0625 : @"1/16 mile", @0.125 : @"1/8 mile",
+                            @0.25 : @"1/4 mile", @0.5 : @"1/2 mile", @0.75 : @"3/4 mile",
                             @1 : @"1 mile", @2 : @"2 miles", @5 : @"5 miles",
                             @10 : @"10 miles", @20 : @"20 miles", @50 : @"50 miles",
                             @100 : @"100 miles", @200 : @"200 miles", @500 : @"500 miles",
@@ -101,15 +96,45 @@
         
         _scale.frame = CGRectMake(0, 0, scalePXsize, 1);
         _scale.backgroundColor = self.scaleColor;
-        _scale.center = CGPointMake(_mapView.center.x, 30);
         
         _scaleLabel.frame = CGRectMake(0, 0, scalePXsize, 11);
         _scaleLabel.textColor = self.scaleTextColor;
-        _scaleLabel.textAlignment = self.scaleTextAlignement;
-        _scaleLabel.center = CGPointMake(_mapView.center.x, 36);
+        _scaleLabel.textAlignment = self.scaleTextAlignment;
         _scaleLabel.text = scaleLabel;
         
-    } repeats:FALSE];
+        // position views
+        switch (self.scalePosition) {
+            case CHGMapViewScalePositionTopLeft:
+                _scale.center = CGPointMake(CGRectGetWidth(_scale.frame) / 2 + 5, self.topAdjustment);
+                _scaleLabel.center = CGPointMake(CGRectGetWidth(_scaleLabel.frame) / 2 + 5, self.topAdjustment + 6.f);
+                break;
+            case CHGMapViewScalePositionTopRight:
+                _scale.center = CGPointMake(CGRectGetWidth(_mapView.bounds) - CGRectGetWidth(_scale.frame) / 2 - 5 , self.topAdjustment);
+                _scaleLabel.center = CGPointMake(CGRectGetWidth(_mapView.bounds) - CGRectGetWidth(_scaleLabel.frame) / 2 - 5, self.topAdjustment + 6.f);
+                break;
+            default: //CHGMapViewScalePositionTopCenter
+                _scale.center = CGPointMake(_mapView.center.x, self.topAdjustment);
+                _scaleLabel.center = CGPointMake(_mapView.center.x, self.topAdjustment + 6.f);
+                break;
+        }
+        
+    } repeats:NO];
+}
+
+- (CLLocationDistance)distance
+{
+    GMSProjection *projection = [_mapView projection];
+    
+    CGPoint leftPoint = CGPointMake(0.f, self.topAdjustment);
+    CGPoint rightPoint = CGPointMake(CGRectGetWidth(_mapView.bounds), self.topAdjustment);
+    
+    CLLocationCoordinate2D leftCoord = [projection coordinateForPoint:leftPoint];
+    CLLocationCoordinate2D rightCoord = [projection coordinateForPoint:rightPoint];
+    
+    CLLocation *leftLoc = [[CLLocation alloc] initWithLatitude:leftCoord.latitude longitude:leftCoord.longitude];
+    CLLocation *rightLoc = [[CLLocation alloc] initWithLatitude:rightCoord.latitude longitude:rightCoord.longitude];
+    
+    return [leftLoc distanceFromLocation:rightLoc];
 }
 
 @end

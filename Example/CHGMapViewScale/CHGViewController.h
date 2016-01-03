@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface CHGViewController : UIViewController
+#import "CHGMapViewScale.h"
+
+@interface CHGViewController : UIViewController <GMSMapViewDelegate>
 
 @end
