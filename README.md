@@ -6,7 +6,7 @@
 
 ## Example
 
-![Screenshot of example CHGMapViewController](example.png)
+![Screenshot of example CHGMapViewController](example.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 

@@ -65,7 +65,7 @@
         
         if (_mapView.isScaleHidden) {
             // show the scale
-            [_mapView showScale];
+            [_mapView showScaleWithAutomaticUpdates:YES];
             [((UIBarButtonItem *)sender) setTitle:@"Hide"];
         } else {
             // hide the scale

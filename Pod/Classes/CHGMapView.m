@@ -34,6 +34,12 @@
     return mapView;
 }
 
+- (void)awakeFromNib
+{
+    self.scale = [[CHGMapViewScale alloc] initWithMapView:self];
+    [self.scale setHidden:YES];
+}
+
 - (void)dealloc
 {
     [self removeObserver:self forKeyPath:@"camera"];
