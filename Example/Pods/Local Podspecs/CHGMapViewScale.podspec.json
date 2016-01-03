@@ -1,8 +1,8 @@
 {
   "name": "CHGMapViewScale",
   "version": "0.1.0",
-  "summary": "A short description of CHGMapViewScale.",
-  "description": "",
+  "summary": "Add a graphical scale to a GMSMapView.",
+  "description": "Add a graphical scale directly on top of a GMSMapView.",
   "homepage": "https://github.com/grethi/CHGMapViewScale",
   "license": "MIT",
   "authors": {
