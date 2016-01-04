@@ -1,13 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "CHGMapViewScale"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Add a graphical scale to a GMSMapView."
   s.description      = <<-DESC
 Add a graphical scale directly to a GMSMapView.
                        DESC
 
   s.homepage         = "https://github.com/grethi/CHGMapViewScale"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Christian Greth" => "greth.christian@googlemail.com" }
   s.source           = { :git => "https://github.com/grethi/CHGMapViewScale.git", :tag => s.version.to_s }
@@ -17,7 +16,7 @@ Add a graphical scale directly to a GMSMapView.
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.frameworks = 'UIKit', 'MapKit', 'GoogleMaps'
+  s.frameworks = 'UIKit', 'GoogleMaps'
   s.dependency 'BlocksKit'
   s.dependency 'GoogleMaps'
 end
