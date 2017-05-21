@@ -14,7 +14,7 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - CHGMapViewScale (1.0.0):
+  - CHGMapViewScale (1.0.1):
     - BlocksKit
     - GoogleMaps
   - GoogleMaps (1.11.1)
@@ -24,11 +24,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   CHGMapViewScale:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  CHGMapViewScale: 1c063caeb85fa2a263f1c9a8c04f15a91a25d756
+  CHGMapViewScale: e68bc246616ade398b4abfe8fbb02612f2110d2f
   GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4d557eeb7fca516b7d4ab4197c184b9eeb79066f
+
+COCOAPODS: 1.2.1

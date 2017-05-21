@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 #use_frameworks!
 
-target 'CHGMapViewScale_Example', :exclusive => true do
+target 'CHGMapViewScale_Example' do
   pod "CHGMapViewScale", :path => "../"
 end
 
-target 'CHGMapViewScale_Tests', :exclusive => true do
+target 'CHGMapViewScale_Tests' do
   pod "CHGMapViewScale", :path => "../"
 
   
