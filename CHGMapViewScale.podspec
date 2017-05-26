@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CHGMapViewScale"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Add a graphical scale to a GMSMapView."
   s.description      = <<-DESC
 Add a graphical scale directly to a GMSMapView.
