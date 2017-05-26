@@ -18,5 +18,5 @@ Add a graphical scale directly to a GMSMapView.
 
   s.frameworks = 'UIKit', 'GoogleMaps'
   s.dependency 'BlocksKit'
-  s.dependency 'GoogleMaps'
+  s.dependency 'GoogleMaps', '<2.0.0'
 end

@@ -50,10 +50,10 @@
         
     }];
     
-    UIBarButtonItem *kiloButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Kilometers" style:UIBarButtonItemStylePlain handler:^(id sender) {
+    UIBarButtonItem *kiloButton = [[UIBarButtonItem alloc] bk_initWithTitle:@"Kilometres" style:UIBarButtonItemStylePlain handler:^(id sender) {
         
         // change scale settings and update its view
-        _mapView.scale.scaleUnit = CHGMapViewScaleUnitKilometers;
+        _mapView.scale.scaleUnit = CHGMapViewScaleUnitKilometres;
         [_mapView updateScale];
         
     }];

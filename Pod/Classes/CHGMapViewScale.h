@@ -33,7 +33,7 @@ typedef NS_ENUM(NSInteger, CHGMapViewScaleUnit) {
     /**
      *  Kilometers
      */
-    CHGMapViewScaleUnitKilometers
+    CHGMapViewScaleUnitKilometres
 };
 
 /**
