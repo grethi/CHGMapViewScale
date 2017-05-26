@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 [![Platform](https://img.shields.io/cocoapods/p/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
 
+## Restrictions
+
+This pod will only work with GoogleMaps < 2.0.0. Tested on iOS 7 to iOS 10.3.
+
 ## Example
 
 ![Screenshot of example CHGMapViewController](example.gif)
