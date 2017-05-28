@@ -1,3 +1,6 @@
+
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `There is another implemantation wich will better mimic the scale behavior for GMSMapView at` https://github.com/grethi/GMSMapViewScale.
+
 # CHGMapViewScale
 
 [![Version](https://img.shields.io/cocoapods/v/CHGMapViewScale.svg?style=flat)](http://cocoapods.org/pods/CHGMapViewScale)
