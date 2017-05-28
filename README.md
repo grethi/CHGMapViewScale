@@ -1,5 +1,5 @@
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `There is another implemantation wich will better mimic the scale behavior for GMSMapView at` https://github.com/grethi/GMSMapViewScale.
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `There is another implemantation wich will better mimic the scale behavior for GMSMapView at` https://github.com/grethi/CHGMapView.
 
 # CHGMapViewScale
 
